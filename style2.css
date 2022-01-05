@@ -1,0 +1,56 @@
+.vocalbackground{
+
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url(./images/band.jpg);
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        border-radius: 50px;
+        background-size: cover;
+}
+
+.vocalinfo{
+
+        color: wheat;
+        text-align: center;
+        padding: 100px;
+}
+.input{
+
+        margin-top: 50px;
+}
+
+.payment{
+
+    margin-top: 50px;
+    height: 50px;
+    width: 10%;
+    color: wheat;
+    border-radius: 20px;
+    background: none;
+    border-color: wheat;
+    
+}
+
+.payment:hover{
+
+    background-color: teal;
+    transition: 1s linear;
+}
+
+.back{
+
+    text-decoration: none;
+    margin-top: 20%;
+    color: wheat;
+
+}
+.backdiv{
+
+    margin-top: 50px;
+}
+
+.back:hover{
+    color:fuchsia;
+    transition: 1s linear;
+}

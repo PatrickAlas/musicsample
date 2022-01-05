@@ -1,0 +1,335 @@
+.nav{
+    
+    display: flex;
+    
+
+
+}
+
+.logo{
+
+    margin: 20px;
+    margin-left: 5%;
+}
+
+.logo-1{
+    width: 75px;
+    height: 75px;
+    
+}
+
+.home,.about,.login{
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+
+.nav-1{
+
+    margin-left: 70%;
+    margin-top: 20px;
+
+}
+
+.display{
+
+    margin: 80px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)), url(./images/background.jpg);
+    background-repeat: no-repeat;
+    border: black;
+    border-radius: 40px;
+    height: 50vh;
+    color:wheat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.display p{
+    margin: 50px;
+}
+
+.display h1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.home:hover, .about:hover, .login:hover{
+
+    color: green;
+    
+}
+
+.btn{
+
+    margin: 20px;
+    margin-left: 70px;
+    height: 50px;
+    width: 125px;
+    border-color: wheat;
+    border-radius: 20px;
+    background:none;
+    color: wheat;
+    transition: var(--transition);
+
+}
+
+.btn:hover{
+    background-color:teal;
+
+
+}
+
+.aboutus{
+
+    display: flex;
+
+    
+
+}
+
+.aboutus p{
+
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: black solid 3px;
+    padding: 20px
+    
+}
+
+.aboutus p:hover{
+
+    background-color: wheat;
+    transition: 2s linear;
+}
+
+:root{
+
+    --transition: 1s;
+}
+
+.vocals{
+
+    text-align: center;
+    margin: 20px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(./images/mic.jpg);
+    color:wheat;
+    margin: 0%;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.vocals h1, .vocals p{
+
+    padding: 20px;
+}
+
+.btnS{
+
+    margin: 20px;
+    margin-left: 70px;
+    height: 50px;
+    width: 125px;
+    border-color: wheat;
+    border-radius: 20px;
+    background:none;
+    color: wheat;
+
+    transition: var(--transition);
+
+}
+
+.btnS:hover{
+    background-color:teal;
+
+
+}
+
+
+.guitar{
+
+    text-align: center;
+    margin: 20px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(./images/guitar.jpg);
+    color:wheat;
+    margin: 0%;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.guitar h1, .guitar p{
+
+    padding: 20px;
+}
+
+.btnG{
+
+    margin: 20px;
+    margin-left: 70px;
+    height: 50px;
+    width: 125px;
+    border-color: wheat;
+    border-radius: 20px;
+    background:none;
+    color: wheat;
+    transition: var(--transition);
+
+}
+
+.btnG:hover{
+    background-color:teal;
+    
+
+
+}
+
+
+.bass{
+
+    text-align: center;
+    margin: 20px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(./images/bass.jpg);
+    color:wheat;
+    margin: 0%;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bass h1, .bass p{
+
+    padding: 20px;
+}
+
+.btnB{
+
+    margin: 20px;
+    margin-left: 70px;
+    height: 50px;
+    width: 125px;
+    border-color: wheat;
+    border-radius: 20px;
+    background:none;
+    color: wheat;
+    transition: var(--transition);
+
+}
+
+.btnB:hover{
+    background-color:teal;
+
+
+}
+
+
+.drum{
+
+    text-align: center;
+    margin: 20px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(./images/drum.jpg);
+    color:wheat;
+    margin: 0%;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.drum h1, .drum p{
+
+    padding: 20px;
+}
+
+.btnD{
+
+    margin: 20px;
+    margin-left: 70px;
+    height: 50px;
+    width: 125px;
+    border-color: wheat;
+    border-radius: 20px;
+    background:none;
+    color: wheat;
+    transition: var(--transition);
+
+}
+
+.btnD:hover{
+    background-color:teal;
+
+
+}
+
+
+
+.aboutt{
+
+    text-align: center;
+    display: flex;
+
+
+}
+
+.aboutt p{
+
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.aboutleft{
+    border: black solid 3px;
+
+}
+
+.aboutright{
+
+    padding: 50px;
+    margin-right: 20px;
+    
+}
+
+#aboutlogo{
+
+    height: 150%;
+    
+}
+
+.comment{
+    margin-bottom: 50px;
+}
+
+.aboutleft:hover{
+    background-color: wheat;
+    transition: 1s linear;
+}
+
+.con{
+
+    margin-left: 50%;
+}
+
+.subm{
+
+    margin-bottom: 30px;
+
+
+}
+
+
+
+
+
+
